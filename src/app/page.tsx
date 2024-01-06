@@ -1,8 +1,10 @@
-import Portfolio from './components/Portfolio'
-import styles from './page.module.css'
+import Portfolio from "./components/Portfolio";
+
 
 export default function Home() {
   return (
-    <Portfolio/>
+    <main >
+      <Portfolio></Portfolio>
+    </main>
   )
 }
